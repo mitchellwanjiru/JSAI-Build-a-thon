@@ -27,7 +27,9 @@ export async function main() {
       stop: null
   });
 
-  console.log(JSON.stringify(result, null, 2));
+  console.log(result.choices[0].message.content);
+
+  // console.log(JSON.stringify(result, null, 2));
 }
 
 main().catch((err) => {

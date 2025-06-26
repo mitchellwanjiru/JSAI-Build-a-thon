@@ -252,4 +252,3 @@ Here are some additional resources to help you learn more about LangChain.js and
 - [LangChain.js + Azure: A Generative AI App Journey](https://techcommunity.microsoft.com/blog/educatordeveloperblog/langchain-js--azure-a-generative-ai-app-journey/4101258)
 - [LangChain.js docs](https://js.langchain.com/docs/introduction/)
 
-

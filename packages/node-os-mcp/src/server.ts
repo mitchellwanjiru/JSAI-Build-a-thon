@@ -18,6 +18,8 @@ async () => {
     const cpus = os.cpus();
     let totalIdle = 0, totalTick = 0;
 
+    
+
     for (const cpu of cpus) {
         for (const type in cpu.times) {
         totalTick += cpu.times[type as keyof typeof cpu.times];

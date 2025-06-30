@@ -15,6 +15,7 @@ async function main() {
       transport = new SSEServerTransport("/messages", res);
       await server.connect(transport);
     });
+    
     app.post("/messages", async (req, res) => {
       // Note: to support multiple simultaneous connections, these messages will
       // need to be routed to a specific matching transport. (This logic isn't

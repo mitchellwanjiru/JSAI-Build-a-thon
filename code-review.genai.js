@@ -1,6 +1,7 @@
 const changes = await git.diff({ staged: true });
 
-defDiff("CODE_CHANGES", changes);
+// Provide the required third argument (e.g., a label or options object as per the function's definition)
+defDiff("CODE_CHANGES", changes, "Code changes diff");
 
 $`## Role
 You are a senior developer whose job is to review code changes and provide meaningful feedback.

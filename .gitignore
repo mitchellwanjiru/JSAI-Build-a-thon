@@ -406,3 +406,6 @@ FodyWeavers.xsd
 
 agent 
 agent.js
+genaiscript.d.ts
+tsconfig.json
+jsconfig.json
